@@ -17,7 +17,7 @@ public class Spring2014_2a2 extends Spring2014_2a {
 	void to_String() {
 		// TODO Auto-generated method stub
 		System.out.println("person name is:"+ name); 
-		//System.out.println("object class name is:" );
+		System.out.println("object class name is:" + this.getClass().getSimpleName() );
 		
 		
 	}
