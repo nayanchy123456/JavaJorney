@@ -30,6 +30,7 @@ public class StackUsingLL {
         } else {
             int poppedValue = head.data;
             head = head.next;
+            System.out.println("the poped value is:" + poppedValue);
             return poppedValue;
         }
     }
@@ -50,7 +51,7 @@ public class StackUsingLL {
         StackUsingLL stack = new StackUsingLL();
         stack.push(55);
         stack.push(554);
-        stack.pop();
+//        stack.pop();
         stack.displayStack();
     }
 }
