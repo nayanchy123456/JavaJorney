@@ -17,7 +17,7 @@ public class Fall2014_4b  extends JPanel{
 		 	g.setColor(Color.green);
 	       g.fillOval(100, 130, 250, 100);
 	       
-	       // writting font inside the ellipse
+	       // writing font inside the ellipse
 	     
 	       String text = "Pokhara University";
 	       Font font = new Font("serif",Font.BOLD,20);
