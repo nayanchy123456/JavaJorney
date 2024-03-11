@@ -32,7 +32,7 @@
 	            int barHeight = (int) ((double) data[i] / maxValue * (height ));
 	            g.fillRect(i * barWidth + 10, height - barHeight , barWidth -20, barHeight);
 	            g.setColor(Color.BLACK);
-	            g.drawString(String.valueOf(data[i]), i * barWidth +20, height - barHeight);
+	            g.drawString(String.valueOf(data[i]), i * barWidth +10, height - barHeight);
 //	            g.drawString("Java",10,20);
 //	            g.drawString("PHP",210,20);
 //	            g.drawString("Python",410,20);

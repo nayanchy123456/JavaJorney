@@ -1,7 +1,5 @@
 package graphics;
 
-
-
 import java.awt.Color;
 import java.awt.Font;
 import java.awt.Graphics;
@@ -23,7 +21,7 @@ class PercentSlice {
 class MyComponent extends JComponent {
     PercentSlice[] slices = {
             new PercentSlice(15, Color.yellow),   // 15% slice
-            new PercentSlice(30, Color.white),    // 30% slice
+            new PercentSlice(30, Color.GREEN),    // 30% slice
             new PercentSlice(25, Color.blue),     // 25% slice
             new PercentSlice(30, Color.red)        // 30% slice
     };
